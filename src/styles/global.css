@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p.code {
+  opacity: 0.15;
+  letter-spacing: 8px;
+  font-style: italic;
+  line-height: 20px;
+  transform: scale(1.1,1.25);
+  font-size: 10px;
+}
+
+html {
+  background-color: #0b1825;
+  font-family: 'Varela Round', sans-serif;
+}
+
+::-moz-selection {
+  background: #4CE0D2;
+  color: #FFF;
+}
+::selection {
+  background: #4CE0D2;
+  color: #FFF;
+}
